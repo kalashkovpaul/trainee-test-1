@@ -41,6 +41,7 @@ export default class extends React.Component<any> {
 		}
 
 		if (/м.*о.*с.*к.*в.*а/i.test(element.innerHTML)) {
+			console.log(element.innerHTML);
 			console.warn('item was found 2');
 		}
 

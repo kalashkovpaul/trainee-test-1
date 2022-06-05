@@ -26,7 +26,6 @@ export const Image: React.FunctionComponent<ImageProps> = ({src = '', className,
 		), {}),
 		[src, props]
 	);
-	console.log(additionalStyles);
 
 	return (
 		<div className={className}>
